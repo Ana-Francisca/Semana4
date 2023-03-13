@@ -1,0 +1,37 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: yellow;
+}
+
+p {
+    color: aqua;
+    font-family: sans-serif;
+}
+
+.container{
+    background: red;
+    width: 300px;
+    height: 300px;
+}
+
+#rodape {
+    background: blue;
+    width: 300px;
+    height: 300px;
+}
+
+#primeiro {
+    background-color: aqua;
+    width: 50px;
+    height: 50px;
+}
+#segundo {
+    background-color: red;
+    width: 50px;
+    height: 50px;
+}
