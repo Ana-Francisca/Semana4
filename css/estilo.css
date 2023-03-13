@@ -11,6 +11,8 @@ body {
 p {
     color: aqua;
     font-family: sans-serif;
+    background-color: black;
+    padding: 6px;
 }
 
 .container{
@@ -24,14 +26,30 @@ p {
     width: 300px;
     height: 300px;
 }
-
+/* comentario */
 #primeiro {
     background-color: aqua;
-    width: 50px;
-    height: 50px;
+    font-size: 10px;
+    width: 80px;
+    height: 80px;
+    border: 5px solid red;
+    margin-bottom: 3px;
+    padding: 10px;
+    border-radius: 20px;
+    border-left: 5px solid orange;
+    border-right: 5px solid blue;
+    border-bottom: 5px solid purple;
+    border-top: 5px solid green;
+    /*border-style: dotted;
+    border-color: red;
+    border-width: 10px;*/
 }
 #segundo {
+    background-image: url("../img/dog.jpg");
     background-color: red;
-    width: 50px;
-    height: 50px;
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 200px;
+    height: 200px;
 }
